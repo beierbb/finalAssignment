@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalassignment.AddBookWindow">
+   <children>
+      <VBox alignment="CENTER_RIGHT" layoutX="55.0" layoutY="93.0" prefHeight="200.0" prefWidth="100.0" spacing="7.0">
+         <children>
+            <Label text="Title: ">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label text="Author: ">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label text="Genre: ">
+               <font>
+                  <Font size="20.0" />
+               </font></Label>
+            <Label text="Quantity: ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+            <Label text="ID Number: ">
+               <font>
+                  <Font size="20.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+      <VBox alignment="CENTER_LEFT" layoutX="155.0" layoutY="93.0" prefHeight="200.0" prefWidth="100.0" spacing="7.0">
+         <children>
+            <TextField fx:id="textTitle" />
+            <TextField fx:id="textAuthor" />
+            <TextField fx:id="textGenre" />
+            <TextField fx:id="textQuantity" />
+            <TextField fx:id="textIdNumber" />
+         </children></VBox>
+      <Button layoutX="366.0" layoutY="161.0" mnemonicParsing="false" onAction="#addBook" text="Add Book" />
+   </children>
+</AnchorPane>

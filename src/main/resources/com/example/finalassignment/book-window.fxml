@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalassignment.BookWindow">
+   <children>
+      <ListView fx:id="bookList" layoutX="41.0" layoutY="44.0" onMouseClicked="#displayBooks" prefHeight="314.0" prefWidth="200.0" />
+      <Label layoutX="273.0" layoutY="44.0" text="Book Information">
+         <font>
+            <Font size="18.0" />
+         </font></Label>
+      <Label layoutX="302.0" layoutY="70.0" text="Title: " />
+      <Label layoutX="302.0" layoutY="87.0" text="Author: " />
+      <Label layoutX="302.0" layoutY="104.0" text="Genre: " />
+      <Label layoutX="302.0" layoutY="121.0" text="Quantity: " />
+      <Label layoutX="302.0" layoutY="138.0" text="ID number: " />
+      <Label fx:id="lblTitle" layoutX="387.0" layoutY="70.0" />
+      <Label fx:id="lblAuthor" layoutX="387.0" layoutY="87.0" />
+      <Label fx:id="lblGenre" layoutX="387.0" layoutY="104.0" />
+      <Label fx:id="lblQuantity" layoutX="387.0" layoutY="121.0" />
+      <Label fx:id="lblIdNumber" layoutX="387.0" layoutY="138.0" />
+      <Button layoutX="262.0" layoutY="188.0" mnemonicParsing="false" onAction="#borrowBook" text="Borrow" />
+      <Button layoutX="364.0" layoutY="188.0" mnemonicParsing="false" onAction="#returnBook" text="Return" />
+      <Button layoutX="262.0" layoutY="269.0" mnemonicParsing="false" onAction="#addBookWindow" text="Add New Book" />
+      <Label fx:id="lblBookCheck" layoutX="322.0" layoutY="235.0" text="Label" />
+   </children>
+</AnchorPane>

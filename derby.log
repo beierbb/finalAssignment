@@ -1,0 +1,13 @@
+----------------------------------------------------------------
+Tue Jun 27 16:17:26 UTC 2023:
+Booting Derby version The Apache Software Foundation - Apache Derby - 10.15.2.0 - (1873585): instance a816c00e-0188-fda5-4136-000007677a78 
+on database directory /Users/bettybao/Documents/GitHub/finalAssignment/database/forum with class loader jdk.internal.loader.ClassLoaders$AppClassLoader@67424e82 
+Loaded from file:/Users/bettybao/Library/Application%20Support/JetBrains/IntelliJIdea2023.1/jdbc-drivers/Apache%20Derby/10.15.2.0/derby-10.15.2.0.jar
+java.vendor=JetBrains s.r.o.
+java.runtime.version=17.0.6+10-b829.9
+user.dir=/Users/bettybao/Documents/GitHub/finalAssignment
+os.name=Mac OS X
+os.arch=x86_64
+os.version=13.4
+derby.system.home=null
+Database Class Loader started - derby.database.classpath=''

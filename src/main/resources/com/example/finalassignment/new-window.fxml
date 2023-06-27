@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" spacing="10.0" xmlns="http://javafx.com/javafx/11.0.14-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.finalassignment.NewWindow">
+   <children>
+      <TextField fx:id="textName" prefHeight="26.0" prefWidth="460.0" promptText="First Name" />
+      <TextField fx:id="textLastName" prefHeight="26.0" prefWidth="450.0" promptText="Last Name" />
+      <TextField fx:id="textPin" promptText="Pin Number" />
+      <Button mnemonicParsing="false" onAction="#addUser" text="Sign Up" />
+      <Label fx:id="lblId" />
+   </children>
+</VBox>
